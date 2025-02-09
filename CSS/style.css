@@ -38,7 +38,7 @@ section {
     margin: auto;
 }
 
-/*CSS des projets*/
+/*CSS projets*/
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -65,7 +65,7 @@ section {
     }
 
     50% {
-        color: #ffeb3b;
+        color: #3bff9a;
     }
 
     100% {
