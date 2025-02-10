@@ -22,6 +22,19 @@ nav ul {
     gap: 20px;
 }
 
+nav li {
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav li:hover {
+    background: #555;
+    color: #19a95e;
+    transform: scale(1.1);
+    transition: transform 0.3s, color 0.3s;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -29,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #19a95e;
 }
 
 section {
@@ -65,7 +78,7 @@ section {
     }
 
     50% {
-        color: #3bff9a;
+        color: #19a95e;
     }
 
     100% {
