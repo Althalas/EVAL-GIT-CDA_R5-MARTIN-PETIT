@@ -104,3 +104,80 @@ header h1 {
 #contact-form button:hover {
     background: #555;
 }
+
+/*CSS compétences*/
+.apropos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.apropos-text,
+.competences {
+    width: 45%;
+    min-width: 300px;
+}
+
+.competences .competence {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.competences .progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*template progress-bar*/
+.competences .progress-bar div {
+    height: 20px;
+    background: #4caf50;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    line-height: 20px;
+}
+
+/*progress HTML & CSS*/
+.competences .progress-bar-html div {
+    height: 20px;
+    background: #0c3ec7;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    line-height: 20px;
+}
+
+/*progress js*/
+.competences .progress-bar-js div {
+    height: 20px;
+    background: #c7bb16;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    line-height: 20px;
+}
+
+/*progress-bar angular*/
+.competences .progress-bar-angular div {
+    height: 20px;
+    background: #831649;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    line-height: 20px;
+}
+
+/*progress-bar sql*/
+.competences .progress-bar-sql div {
+    height: 20px;
+    background: #90ec53;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    line-height: 20px;
+}
